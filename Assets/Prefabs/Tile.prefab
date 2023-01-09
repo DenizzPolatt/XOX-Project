@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4640846564532995269}
   - component: {fileID: 8600604964536336933}
   - component: {fileID: -3483880568638133275}
+  - component: {fileID: -1347596693791443844}
   m_Layer: 0
   m_Name: Tile
   m_TagString: Untagged
@@ -100,3 +101,40 @@ MonoBehaviour:
   material1: {fileID: 2100000, guid: e5190fe5c47bc406cbf1e8902f88d50e, type: 2}
   material2: {fileID: 2100000, guid: 412747a985c1b4c029e9fcbc4ff0e2bd, type: 2}
   _renderer: {fileID: 8600604964536336933}
+  x:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  o: []
+--- !u!61 &-1347596693791443844
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2142102971659134565}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
